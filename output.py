@@ -1,4 +1,3 @@
-# output.py
 import csv
 from datetime import datetime
 from html import escape
