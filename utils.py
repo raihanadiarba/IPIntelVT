@@ -2,7 +2,7 @@ import csv
 import queue
 import time
 import threading
-from .vt_api import check_ip_virustotal, RATE_LIMIT
+from vt_api import check_ip_virustotal, RATE_LIMIT
 
 def read_ip_list(filename, verbose=False):
     ip_list = []
